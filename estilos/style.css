@@ -63,3 +63,26 @@ main {
 section#redes-sociais img:active {
     transform: scale(95%);
 }
+
+@media screen and (max-width: 400px) {
+    #telefone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        max-height: 500px;
+        max-width: 320px;
+        background: url(../imagens/frame-iphone.png) no-repeat left;
+        background-size: contain;
+    }
+        
+    #tela {
+        position: relative;
+        top: 65px;
+        left: 18px;
+        width: 213px;
+        height: 374px;
+    }
+
+}

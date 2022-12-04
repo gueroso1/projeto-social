@@ -60,9 +60,7 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 
-section#redes-sociais img:active {
-    transform: scale(95%);
-}
+
 
 @media screen and (max-width: 400px) {
     #telefone {
